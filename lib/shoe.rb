@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     new =[]
     new << brand
-    BRANDS << new.uniq
+    BRANDS << new.uniq.flatten
   end
 #binding.pry
   def cobble
