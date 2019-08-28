@@ -6,9 +6,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    new =[]
-    new << brand
-    BRANDS << new.uniq.flatten
+    BRANDS << new
   end
 #binding.pry
   def cobble
